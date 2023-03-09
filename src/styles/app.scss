@@ -1,0 +1,19 @@
+@import 'utils/variables';
+@import 'components/type';
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(200px, 200px);
+}
